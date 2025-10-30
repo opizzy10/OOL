@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ImageGallery from "@/components/ImageGallery";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
@@ -63,13 +64,10 @@ const VehicleDetail = () => {
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
             <div>
-              <div className="aspect-[4/3] rounded-xl overflow-hidden bg-muted mb-4">
-                <img
-                  src={vehicle.images[0]}
-                  alt={`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <ImageGallery 
+                images={vehicle.images}
+                alt={`${vehicle.year} ${vehicle.make} ${vehicle.model}`}
+              />
             </div>
 
             <div>

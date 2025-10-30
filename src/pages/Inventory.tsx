@@ -9,14 +9,16 @@ const Inventory = () => {
     <div className="min-h-screen">
       <Header />
 
-      <section className="pt-32 pb-12 bg-gradient-to-b from-background to-card">
+      <section className="pt-32 pb-12 bg-gradient-to-b from-muted/30 to-background">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-serif font-bold mb-4 text-center">
-            Our <span className="text-primary">Inventory</span>
-          </h1>
-          <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Browse our curated selection of luxury vehicles. Each car is carefully selected and inspected to meet our premium standards.
-          </p>
+          <div className="text-center mb-10">
+            <h1 className="text-5xl md:text-6xl font-serif font-bold mb-4">
+              Our <span className="text-primary">Inventory</span>
+            </h1>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Browse our curated selection of luxury vehicles. Each car is carefully selected and inspected to meet our premium standards.
+            </p>
+          </div>
           <SearchFilters />
         </div>
       </section>

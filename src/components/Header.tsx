@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Header = () => {
   return (
@@ -30,6 +31,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-3">
+            <ThemeToggle />
             <Button
               variant="outline"
               size="sm"
