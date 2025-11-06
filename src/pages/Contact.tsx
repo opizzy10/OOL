@@ -75,7 +75,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-bold mb-1">Visit Our Showroom</h3>
                     <p className="text-muted-foreground">
-                      Wuse 2, Abuja FCT, Nigeria
+                      Lagos, Nigeria
                     </p>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Call Us</h3>
-                    <p className="text-muted-foreground">+234 705 971 0469</p>
+                    <p className="text-muted-foreground">+234 801 234 5678</p>
                     <p className="text-sm text-muted-foreground mt-1">
                       WhatsApp available
                     </p>
@@ -103,7 +103,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-bold mb-1">Email Us</h3>
-                    <p className="text-muted-foreground">info@abujacars.ng</p>
+                    <p className="text-muted-foreground">info@oolautos.ng</p>
                   </div>
                 </div>
               </Card>

@@ -10,21 +10,21 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-5xl font-serif font-bold mb-6 text-center">
-              About <span className="text-primary">Abuja Cars</span>
+              About <span className="text-primary">OOL Autos</span>
             </h1>
             
             <div className="prose prose-invert max-w-none">
               <p className="text-xl text-muted-foreground mb-8 text-center">
-                Nigeria's most trusted luxury car dealership, serving discerning clients since 2012.
+                Lagos' premier luxury car destination, curated by Ola of Lagos - from influencer to automotive excellence.
               </p>
 
               <div className="grid md:grid-cols-2 gap-8 my-12">
                 <div className="bg-card p-8 rounded-xl border border-border">
                   <h3 className="text-2xl font-serif font-bold mb-4">Our Mission</h3>
                   <p className="text-muted-foreground">
-                    To provide Nigeria's elite with access to the world's finest automobiles,
-                    backed by uncompromising quality assurance, transparent dealings, and
-                    exceptional after-sales service.
+                    To bring Lagos and Nigeria's elite the most exclusive collection of luxury vehicles,
+                    combining social media authenticity with showroom excellence and 
+                    uncompromising quality standards.
                   </p>
                 </div>
 
@@ -76,13 +76,13 @@ const About = () => {
               <div className="mt-12 p-8 bg-primary/10 border border-primary/20 rounded-xl">
                 <h3 className="text-2xl font-serif font-bold mb-4">Visit Our Showroom</h3>
                 <p className="text-muted-foreground mb-4">
-                  Experience luxury firsthand at our state-of-the-art showroom in Wuse 2, Abuja.
-                  Schedule a private viewing of any vehicle in our inventory.
+                  Experience luxury firsthand at our exclusive showroom in Lagos.
+                  Schedule a private viewing of any vehicle in our collection.
                 </p>
                 <p className="font-semibold">
-                  Address: Wuse 2, Abuja FCT, Nigeria<br />
+                  Address: Lagos, Nigeria<br />
                   Phone: +234 801 234 5678<br />
-                  Email: info@abujacars.ng
+                  Email: info@oolautos.ng
                 </p>
               </div>
             </div>

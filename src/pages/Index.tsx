@@ -52,7 +52,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-serif font-bold mb-4">
-              Why Choose <span className="text-primary">Abuja Cars</span>
+              Why Choose <span className="text-primary">OOL Autos</span>
             </h2>
           </div>
 

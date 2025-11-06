@@ -13,11 +13,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="text-sm font-bold mb-4 tracking-wider text-primary">
-              ABUJA CARS DEALERSHIP
+              OOL AUTOS - OLA OF LAGOS
             </h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              As the leading dealer in Abuja, we are confident that we will save you time and money. 
-              Abuja Cars is ultimate Automotive Car Dealer.
+              Lagos' premier luxury car destination. From social media to showroom excellence, 
+              OOL Autos brings you the finest collection of high-end vehicles in Nigeria.
             </p>
           </div>
 
@@ -97,12 +97,12 @@ const Footer = () => {
             </div>
             <div className="mt-4">
               <a
-                href="https://wa.me/2347059710469"
+                href="https://wa.me/2348012345678"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
               >
-                WhatsApp: +234 705 971 0469
+                WhatsApp: +234 801 234 5678
               </a>
             </div>
           </div>
@@ -161,7 +161,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-border mt-8 pt-6 text-center text-sm text-muted-foreground">
-          <p>Copyright © {currentYear}. Abuja Cars – Premium Car Dealership</p>
+          <p>Copyright © {currentYear}. OOL Autos – Ola of Lagos Luxury Car Collection</p>
         </div>
       </div>
     </footer>

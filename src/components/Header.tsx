@@ -46,7 +46,7 @@ const Header = () => {
               className="hidden sm:flex gap-2"
               asChild
             >
-              <a href="tel:+2347059710469">
+              <a href="tel:+2348012345678">
                 <Phone className="h-4 w-4" />
                 <span>Call Us</span>
               </a>
@@ -97,7 +97,7 @@ const Header = () => {
                       </Link>
                     </Button>
                     <Button variant="outline" className="w-full justify-start gap-2" asChild>
-                      <a href="tel:+2347059710469">
+                      <a href="tel:+2348012345678">
                         <Phone className="h-4 w-4" />
                         Call Us
                       </a>
